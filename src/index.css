@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+  display:flex;
+  justify-content: center;
+  font-family: Futura,"Trebuchet MS",Arial,sans-serif
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.list {
+  padding: 20px;
+  max-width: 400px;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 100px;
+  text-align: center;
+}
+
+input,
+button {
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+button {
+  margin-left: 5px;
+}
+
+.container .todo-items {
+  padding: 0;
+}
+
+.container .todo-items li {
+  padding: 5px;
+  margin-bottom: 5px;
+  list-style-type: none;
+  text-align: left;
+}
+
+.container .todo-items li:hover {
+  color: #FF4C4C;
+  cursor: pointer;
+}
